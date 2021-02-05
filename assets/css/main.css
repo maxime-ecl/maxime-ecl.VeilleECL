@@ -2176,7 +2176,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/AI.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2203,6 +2203,8 @@ input, select, textarea {
 
 		#header header {
 			display: inline-block;
+			padding: 1em;
+
 		}
 
 			#header header > p {

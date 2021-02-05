@@ -1,0 +1,551 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Veille Ecl - détection automatique</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="no-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+			<!-- Inner -->
+			<div class="inner">
+				<header>
+					<h1><a href="index.html" id="logo">Veille ECL</a></h1>
+				</header>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="no-sidebar.html">Nouvelles technologies</a></li>
+					<li>
+						<a href="#">Algorithmes et IA</a>
+						<ul>
+							<li><a href="composition.html">Composition par l'IA</a></li>
+							<li><a href="detection.html">Algorithmes de détection automatique</a></li>
+							<li><a href="#">Algorithmes de recommandation</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<article id="main" class="special">
+					<header>
+						<h2>Algorithmes de détection automatique</h2>
+						<p>
+							Entre accusation de plagiat et de violation de droits d'auteur, les algorithmes de détection
+							automatique n'ont pas la côte ...
+						</p>
+					</header>
+					<a class="image featured"><img src="images/detection.jpg" alt="" /></a>
+					<div style="color:black; font-size:large; line-height: 150%;">
+						<p>
+							La législation du 26 mars 2019 rend les plateformes responsables juridiquement des contenus
+							protégés postés par leurs utilisateurs. Ainsi, les grande plateformes comme Youtube et
+							Facebook se retrouvent obligées d'agir pour bloquer les contenus en violation de droits
+							d'auteur postés sur plateforme. Elles doivent notamment assurer cette protection vis à vis
+							des contenus issus de l'industrie musicale.<br />
+							Dans cet article, nous allons parler des algorithmes de détection automatique de contenus
+							soumis
+							aux droits d'auteurs et plus partuclièrement des contenus musicaux.
+							Le plus connu (et critiqué) est celui de Google : "Content ID".<br /><br />
+
+							Que repproche-t-on à ces algorithmes initialement conçus pour proteger les artistes ?
+
+						</p>
+						<div style="margin-top: 2em; margin-bottom: 2em; text-align: center;">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/9g2U12SsRns"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+						<section>
+							<header>
+								<h3>Content ID</h3>
+							</header>
+							<p>
+								Comme expliqué dans la vidéo, il s'agit d'un algorithme développé par Google qui
+								fonctionne
+								avec un système d'empreinte
+								digiatle numérque. Ce système a été mis en place sur Youtube en 2008 et fonctionne de la
+								façon suivante. De chaque vidéo enegistrée avec Content ID est extrait une empreinte
+								digitale numérique, ensuite,
+								chaque fois qu'une nouvelle vidéo est mise en ligne sur Youtube, elle est comparée aux
+								empreintes de la base de donnée. <br />
+								Si l'algorithme trouve une correspondance (par exemple s'il detecte qu'une musique non
+								libre de droits a été diffusée au cours de la vidéo), le propriétaire de la vidéo
+								originale
+								enrigistrée
+								avec Content ID est prévenu.
+								Il a alors plusieurs options : bloquer le contenu ou le monétiser. <br /><br />
+
+								Le reproche que l'on fait à cet algorithme est que la décision lui appartient sans
+								qu'elle
+								ne soit jamais vérifiée
+								par un humain. Si une personne accusée de violation de droit veut porter une
+								réclamation, il
+								devra remplir un formulaire qui sera
+								envoyé au propriétaire des droits d'auteurs supposé qui prendra alors sa décision. Il
+								n'y a
+								donc pas d'abitrage. Et les conséquence
+								peuvent être lourde, car au bout de 3 avertissements, la chaine Youtube est supprimée
+								définitivement.
+							</p>
+							<div style="text-align:center; margin-top:2em; margin-bottom: 2em; ">
+								<img src="images/strike.jpg" alt="" />
+							</div>
+
+							<p>
+
+								De plus, le système de filtrage de l'algorithme évolue au cours des années, ainsi une
+								vidéo
+								qui a passé l'algorithme peut poser problème
+								des années plus tard, obligeant son propriétaire à devoir la rééditer en supprimant le
+								passage qui pose problème sous peine de
+								voir sa vidéo supprimée.
+							</p>
+
+							<p>
+								Ainsi, le principal problème est que la décision de blocage repose sur une intelligence
+								artificielle qui ne possède pas les
+								facultés de jugement que peut avoir un humain. Prenons un exemple concret : en terme de
+								droits d'auteur, il existe une exception :
+								la parodie. En effet, les contenus parodiques relèvent du "droit au rire" et ne peuvent
+								donc
+								pas être bloqués. Or, dans la pratique,
+								un robot ne connait pas le second degrès et ne peut pas comprendre cette substilité.
+								Pour
+								lui, un contenu est soit semblable à un autre,
+								soit il ne l'est pas. Ainsi, il ne peut pas faire la distinction entre une critique d'un
+								film et un piratage du film ou entre une parodie
+								de musique et la chanson originale. <br /><br />
+
+								De plus, l'algorithme censure de façon indiscriminée des vidéos soumises aux droits
+								d'auteur mais dont l'auteur en question autorise certaines utilisations. Par exemple
+								certains artistes encouragent leur public à faire des remix de leur son. De même
+								certains youtubeur autorise d'autre youtubeur à diffuser des extraits de leur vidéo afin
+								de les commenter.<br />
+								L'algorithme va donc sistématiquement censurer les vidéos en question sans prendre en
+								compte le contexte ni les tolérnace des ayants droit. Et si un youtubeur s'est arrangé
+								avec un artiste pour pouvoir utiliser l'une de ses musique dans une vidéo, l'algorithme
+								ne prend pas en compte ces arrangements, la vidéo sera tout de même bloquée de façon
+								automatique (il faudra alors que le youtubeur fasse une réclamation auprès de l'artiste
+								pour que celui puisse débloquer la vidéo).
+
+							</p>
+							<div style="text-align:center; margin-top:2em; margin-bottom: 2em; ">
+								<img src="images/censure.jpg" alt="" />
+							</div>
+							<p>
+
+								Finalement, le gros problème qui découle de ceux présentés précedement est que par peur
+								d'être accusé de violation de droits, beaucoup de vidéastes s'auto-censurent. Il vont
+								préferer supprimer une séquence où ils ont utilisé un extrait musical ou vidéo plutôt
+								que de risquer de se faire démonitiser et de se prendre un avertissement. C'est pourquoi
+								aujourd'hui
+								certain accuse l'algorithme de détruire petit à petit la liberté
+								d'expression
+								et de création sur internet.
+
+							</p>
+							<div style="text-align:center; margin-top:2em; margin-bottom: 2em; ">
+								<img src="images/sacem.jpg" alt="" />
+							</div>
+							<p>
+								De l'autre coté, les reprsentants d'artistes et d'auteurs tels que la SACEM ne sont pas
+								plus satisfait de cet algorithme. Leur principal reproche est que l'algorithme distingue
+								les musiques originales des reprises. Ainsi, les revenus que youtube verse à la SACEM
+								concernant les reprises musicale est nettement moins important.<br />
+								La SACEM pense que Youtube ne reverse pas suffisament d'argent aux auteurs (en
+								comparaison des autres plateformes avec abonnements telles que Deezer ou Spotify).
+								Ceratins accuse même youtube de monétiser le travail des artistes pour leur propre
+								buisness.
+							</p>
+
+							<p>
+								Finalement, cet algorithme soulèvent bon nombre de critique et nécessiterai encore
+								quelques ajustment. Cela met le doigt sur une réalité, aussi performant que puisse être
+								l'intelligence artificielle, elle n'est pas la mieux placé pour effectuer certaine
+								tâches. Ici, il s'agit de prendre des décisions en fonction d'un certain contexte et
+								d'un certain sens des libertés d'expression et de création, ce dont n'est pas encore
+								capable la machine.<br />
+								Cependant, malgrès les nombreuses critiques envers "Content ID", il faut tout de même
+								souligner que cet algorithme vise à l'origine à protéger les artiste et créateurs de
+								contenu. Sans ce genre d'algorithme, les artistes verraient leur contenus être exploités
+								par d'autres personnes. L'industrie musicale en serait alors gravement impactée. En
+								effet, les algorithmes de detection automatique sont des acteurs clé dans la protection
+								des droits des contenus issus de l'industrie musicale. Ils représentent donc bien
+								un véritable enjeu, et il ne serait donc pas judicieux de s'en débarasser ...
+							</p>
+
+						</section>
+						<a class="image featured"><img src="images/censored.jpg" alt="" /></a>
+						<section>
+							<header>
+								<h3>Contourner la censure</h3>
+							</header>
+							<p>
+								Comme vu dans la première partie de cet article, certains créateurs (Youtubeurs) vont
+								préferer s'auto-censurer plutôt que de prendre le risque de se faire bloquer une vidéo
+								voir de se faire supprimer sa chaine sans avoir de réelles possibilté de contester la
+								décision de l'algorithme.<br />
+								D'autres vont chercher des alternatives pour pouvoir proposer le contenu qu'ils souhaite
+								mettre sur leur chaine sans se faire bloquer par l'algorithme.
+							</p>
+
+							<p>
+								Une première solution pour ces youtubeurs serait de s'associer en rejoignant ce qu'on
+								appelle des "networks". Il s'agit d'un gestionnaire de contenu auquel plusieurs chaine
+								youtube sont affiliées. Cela permet de faciliter la gestion des droits, puisqu'elles
+								sont toutes regroupées sous le même gestionnaire. Ainsi, les youtubeurs qui décident
+								d'intégrer un network peuvent alors accéder à la gestion des droits sur leur chaine (ce
+								qui n'est pas le cas sur une chaine non affiliée à un network). Les networks sont
+								indépendants de Youtube et ce-dernier leur fait confiance puisqu'il peut supprimer le
+								passage de l'algorithme Content ID sur les chaines affiliées. En effet, Youtube fait
+								confiance aux networks pour juger eux-même si le contenu d'une de leur chaine affiliée
+								est soumise ou non aux droits d'auteurs (tout cela est expliqué dans la vidéo
+								ci-dessous).
+							</p>
+							<div style="text-align: center; margin-bottom: 2em;">
+								<iframe width="560" height="315"
+									src="https://www.youtube.com/embed/qGCaShgI6yY?start=320" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+
+							<p>
+								Certains youtubeurs vont quant à eux chercher à esquiver l'algorithme en utilisant
+								plusieurs stratagèmes. Parmis ces astuces, il y a le fait de mettre des extraits
+								musicaux de courte durée (quelques secondes), de jouer sur le volume, la qualité du son,
+								le fait de ne pas prendre la musique originale. En ce qui concernent les extraits vidéo,
+								ils vont chercher à réduire la taille de l'image, lui appliquer certains filtres afin de
+								l'altérer
+								ou bien lui ajouter un cadre afin de tromper l'algorithme. L'intelligence articielle est
+								loin d'être infaible, il suffit de quelques astuces pour tromper l'algorithme. <br />
+								D'ailleurs certains youtubeurs s'offusquent que des chaines arrivent à poster du contenu
+								illégalement (soumis à droits d'auteur) sans se faire repérer par l'algorithme alors
+								que pendant ce temps ils voient leur vidéos bloquées sans raisons. Une fois de plus, on
+								constate que même si l'algorithme est globalement assez performant, il reste encore du
+								travail pour corriger tous ces problèmes...
+							</p>
+
+							<p>
+								Finalement, une autre solution s'offre aux créateurs de contenu. Il s'agirait (tout
+								simplement) d'utiliser du contenu non-soumis aux droits d'auteur. <br />
+								Bien entendu, si le youtubeurs souhaite utiliser un extrait en particulier (par exemple
+								pour effectuer une critique de musique ou de film), cette alternative ne marche pas.
+								En revanche, s'il souhaite simplment mettre une ambiance musicale au cours de la vidéo
+								(par exemple pour l'introduction), il n'est pas obligé d'utiliser la dernièer musique à
+								la mode. Il pourrait tout aussi bien chercher un contenu musical libre de droits.
+								C'est justement dans cette optique que la plateforme <a href="https://uppbeat.io/"
+									target="/blank" style="color: blue;"> Uppbeat </a>. <br />
+								La platforme lancée récemment (18 janvier 2021) propose tout un tas de contenu audio
+								(musiques, ambiances et bientôt des bruitages) réalisés par des créateurs et sans
+								problèmes de copyright. Dans sa version gratuite, il est possible de télécharger jusqu'à
+								10 musiques par mois. Un abonnement à 6,99€/mois permet d'avoir des téléchargements
+								illimité sans pubs sur l'integralité du catalogue. Dans les cas créateurs de ces
+								contenus audio seront rémunérés par la plateforme.
+							</p>
+						</section>
+						<a class="image featured"><img src="images/plagiat.jpg" alt="" /></a>
+						<section>
+							<header>
+								<h3>Plagiat et intelligence artificielle</h3>
+							</header>
+
+							<p>
+								Jusqu'à présent nous avons vu comment les algorithmes de detection automatique peuvent
+								intervenir dans
+								la gestion des droits d'auteurs sur des plateformes comme Youtube. Il a alors été
+								souligné l'enjeu que représentent ces algorithmes pour l'industrie musicale puisqu'ils
+								assurent la protection des droits des artistes. <br />
+								Mais ce n'est pas la seule utilisation possible! Ils peuvent également aider les
+								artistes eux-même à éviter les accusations de plagiat.
+							</p>
+
+							<p>
+								En effet, ces algorithmes ont été conçus afin de détecter une séquence audio intégré à
+								une vidéo ou une musique. Et ces algorithmes sont performants puisqu'ils arrivent assez
+								bien à detecter ces séquences audio (bien que certains stratagèmes permettent de les
+								contourner). Nous avons parler de Content ID, mais il en existe d'autres (conçus à des
+								fins différentes) à l'instar de <a style="color:blue;"
+									href="https://www.whosampled.com/" target="/blank">WhoSampled</a>.</p>
+							<p>
+
+							<div style="text-align:center; margin-top:2em; margin-bottom: 2em; ">
+								<img src="images/whoSampled.jpg" alt="" />
+							</div>
+
+							Il s'agit d'une application permettant de
+							retrouver les samples utilisés dans un musique. Pour rappel, un sample est un
+							échantillon musical qui peut être prélevé sur une musique, puis réintégré dans une
+							nouvelle musique. WhoSampled permet donc de retrouver la musique originale dont a été
+							extrait le sample et ce même si ce dernier a été modifié (tempo, tonalité, effets,
+							...).<br />
+							La puissance de cette application réside dans l'algorithme de détection utilisé, mais
+							aussi dans l'utilisation du crowdsourcing. En effet, chaque utilisateur peut compléter
+							la base de donnée avec ses connaissances (par exmple, si utilisateur sait que tel sample
+							a été utilisé dans telle musique, il peut rajouter cette information à la base de
+							données).<br />
+							L'entreprise souhaite à présent collaborer avec l'industrie musicale et ainsi pouvoir
+							contribuer à la gestion des droits d'auteurs. <br /> Cela ne va pas forcement arranger
+							les compositeurs ... En effet, le sampling est un sujet assez tabou dans l'univers de la
+							production musicale. Les compositeurs ont tendance à récuperer des samples puis à les
+							modifier afin de les rendre moins reconnaissable évitant ainsi les problèmes liés aux
+							droits d'auteurs. Or si une technologies arrivent malgrès tout à reconnaitre les samples
+							originaux, on risque de se retrouver dans la même situation qu'avec Content ID : les
+							compositeurs finiront pas s'auto-censurer pour ne pas se faire attaquer ....
+
+							</p>
+
+							<p>
+								Jusqu'à présent les algorithmes de détection automatique mentionnés dans cet article
+								cherche à protéger les droits d'auteurs. Ce qui revient à sanctionner ceux qui utilisent
+								des extraits musicaux non libre de droits. Mais si on changait de point de vue ? Si ces
+								algorithmes pouvait permettre aux artistes d'éviter les accusation de plagiat ? <br />
+								En effet, ces intelligences artificielles pourraient être mises à disposition des
+								artistes
+								(et créateurs) afin de leur indiquer si leur contenu serait susceptible de se faire
+								accuser de plagait. <br />
+								Ainsi, ces derniers pourrait anticiper plutôt que de se faire sanctionner à posteriori.
+
+							</p>
+
+							<div style="text-align:center; margin-top:2em; margin-bottom: 2em; ">
+								<img src="images/collaboration.jpg" alt="" />
+							</div>
+
+
+							<p>
+								C'est dans cette optique que Spotify travaille actuellement sur un algorithme qui
+								pourrait indiquer aux artistes si leur dernière musique présentent des ressamblances
+								harmoniques avec d'autres musqiues. Cette technologie pourrait s'appeller «Plagiarism
+								Risk Dectector and Interface» («détecteur et interface de risque de plagiat»). Comment
+								ça marche ? L'artiste pourrait fournir la partition (rythme et mélodie) au système qui
+								va ensuite comparer ces informations avec les musiques déjà présente sur la plateforme
+								Spotify. Après analyse, l'algorithme indiquerait à l'artiste si sa musique encourt le
+								risque de se faire attaquer pour plagiat.
+							</p>
+
+							<p>
+								Enfin, parlons d'une autre manière d'utiliser l'intelligence artificielle pour luter
+								contre les accusation de plagiat. Il s'agit d'une idée en lien avec l'article précedent
+								: <a style="color:blue;" href="composition.html">Composition par l'IA</a> : <br />
+								2 avocats, musiciens et compositeurs ont développé un algorithme permettant de générer
+								<b>68 milliards</b> de mélodies.
+								L'algorithme a permis de génerer toutes les mélodies possibles (combinaisons de 8 notes
+								et 12 temps), puis les 2 avocats les
+								ont protégées par des
+								droits d'auteur (en les enregistrant sur un support physique). Ensuite, ils ont mis en
+								ligne toutes ces mélodies ainsi que l'algorithme qui les a générées. Enfin, ils ont
+								utilisé une licence Creative Commons Zero qui leur permet de renoncer à leurs droits sur
+								ces mélodies.<br />
+								L'objectif étant de proteger les artistes contre les accusations de plagiat (puisque
+								toutes les mélodies possibles sont désormais libre de droit). A voir si cet argument
+								pourrait passer dans un tribunal...
+							</p>
+						</section>
+					</div>
+				</article>
+
+				<div style="margin-top:3em; text-align: center">
+					<a href="recommandation.html" class="button">Continuer la lecture</a>
+				</div>
+
+
+				<h3 style="margin-top: 5em;">
+					Références :
+				</h3>
+
+
+				<!-- Carousel -->
+				<section class="carousel">
+					<div class="reel">
+
+						<article>
+							<a href="https://journalmetro.com/culture/2586748/et-si-lintelligence-artificielle-pouvait-lutter-contre-le-plagiat-dans-lindustrie-musicale/"
+								target="_blank" class="image featured"><img src="images/ref7.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://journalmetro.com/culture/2586748/et-si-lintelligence-artificielle-pouvait-lutter-contre-le-plagiat-dans-lindustrie-musicale/"
+										target="_blank">Et si l’intelligence artificielle pouvait lutter contre le
+										plagiat dans l’industrie musicale?</a></h3>
+							</header>
+							<p>Les géants du secteur se tournent vers l’intelligence artificielle pour déterminer avec
+								précision quand l’hommage se transforme en plagiat. </p>
+						</article>
+
+						<article>
+							<a href="https://www.lemonde.fr/pixels/article/2018/07/05/droit-d-auteur-sur-youtube-personne-n-est-vraiment-satisfait-de-la-reconnaissance-automatique_5326621_4408996.html"
+								target="_blank" class="image featured"><img src="images/ref8.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://www.lemonde.fr/pixels/article/2018/07/05/droit-d-auteur-sur-youtube-personne-n-est-vraiment-satisfait-de-la-reconnaissance-automatique_5326621_4408996.html"
+										target="_blank">Sur YouTube, la détection automatique des contenus soumis à
+										droit d’auteur ne satisfait personne. </a></h3>
+							</header>
+							<p>Des systèmes de reconnaissance automatique imposés à toutes les plates-formes ?
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.institutsapiens.fr/le-blocage-automatique-des-contenus-par-un-algorithme-est-une-violation-de-la-liberte-dexpression/"
+								target="_blank" class="image featured"><img src="images/ref9.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://www.institutsapiens.fr/le-blocage-automatique-des-contenus-par-un-algorithme-est-une-violation-de-la-liberte-dexpression/"
+										target="_blank">Le blocage automatique des contenus par un algorithme est une
+										violation de la liberté d’expression ! </a></h3>
+							</header>
+							<p>La nouvelle législation rend les plateformes responsables juridiquement des contenus
+								protégés.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://boingboing.net/2020/12/17/algorithms-like-youtubes-content-id-harm-fair-use-free-speech-and-creativity.html"
+								target="_blank" class="image featured"><img src="images/ref10.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://boingboing.net/2020/12/17/algorithms-like-youtubes-content-id-harm-fair-use-free-speech-and-creativity.html"
+										target="_blank">Algorithms like YouTube's content ID harm fair use, free speech,
+										and creativity </a></h3>
+							</header>
+							<p> Study of The Electronic Frontier Foundation that examines the oppressive use of
+								algorithms to police content in order
+								to "defend" copyrights.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.socialnetlink.org/2020/02/28/lutte-contre-les-accusations-de-plagiat-deux-developpeurs-creent-un-algorithme-avec-plus-de-68-milliards-de-melodies-libres/"
+								target="_blank" class="image featured"><img src="images/ref11.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://www.socialnetlink.org/2020/02/28/lutte-contre-les-accusations-de-plagiat-deux-developpeurs-creent-un-algorithme-avec-plus-de-68-milliards-de-melodies-libres/"
+										target="_blank">Lutte contre les accusations de plagiat : 68 milliards de
+										mélodies libres</a></h3>
+							</header>
+							<p> Pour éviter aux artistes les accusations de plagiat, 2 développeurs ont créé un
+								algorithme pour générer toutes les mélodies possibles.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://www.traxmag.com/cette-application-fabuleuse-est-un-shazam-pour-les-samples/"
+								target="_blank" class="image featured"><img src="images/ref12.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://www.traxmag.com/cette-application-fabuleuse-est-un-shazam-pour-les-samples/"
+										target="_blank">Cette application fabuleuse est un Shazam pour les samples. </a>
+								</h3>
+							</header>
+							<p> Arès Shazam et SoundHound, WhoSampled présente sa dernière application
+								qui intègre un nouvel algorithme de détection musicale.
+							</p>
+						</article>
+
+						<article>
+							<a href="https://techcrunch.com/2021/01/19/uppbeat-launches-a-freemium-music-platform-aimed-at-youtubers/"
+								target="_blank" class="image featured"><img src="images/ref13.PNG" alt="" /></a>
+							<header>
+								<h3><a href="https://techcrunch.com/2021/01/19/uppbeat-launches-a-freemium-music-platform-aimed-at-youtubers/"
+										target="_blank">Uppbeat launches a freemium music platform aimed at YouTubers.
+									</a>
+								</h3>
+							</header>
+							<p> A new music platform, Uppbeat, aims to make it easier for YouTubers and other content
+								creators to find quality free music to use in their videos.
+							</p>
+						</article>
+
+						<article />
+
+
+
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Contact -->
+						<section class="contact">
+							<header>
+								<h3>Nisl turpis nascetur interdum?</h3>
+							</header>
+							<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus
+								tempor aliquet.</p>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span
+											class="label">Facebook</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-instagram"><span
+											class="label">Instagram</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-pinterest"><span
+											class="label">Pinterest</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a>
+								</li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span
+											class="label">Linkedin</span></a>
+								</li>
+							</ul>
+						</section>
+
+						<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Untitled. All rights reserved.</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
